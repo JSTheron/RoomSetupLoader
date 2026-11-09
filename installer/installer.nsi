@@ -25,7 +25,7 @@ ShowUninstDetails show
 ; Informational acknowledgement before installation settings.
 !define MUI_LICENSEPAGE_CHECKBOX
 !define MUI_LICENSEPAGE_CHECKBOX_TEXT "I have read and acknowledge this notice"
-!insertmacro MUI_PAGE_LICENSE "..\ABOUT-AND-DISCLAIMER.txt"
+!insertmacro MUI_PAGE_LICENSE "${__FILEDIR__}\ABOUT-AND-DISCLAIMER.txt"
 !insertmacro MUI_PAGE_DIRECTORY
 Page custom ConfigPageCreate ConfigPageLeave
 Page custom ConnectionPageCreate ConnectionPageLeave

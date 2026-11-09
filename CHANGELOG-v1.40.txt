@@ -1,9 +1,0 @@
-Room Setup Loader v1.40 — Installer notice
-Baseline: user-supplied v1.39
-
-- Added an About & Disclaimer acknowledgement page immediately after the NSIS welcome page.
-- Added ABOUT-AND-DISCLAIMER.txt with purpose, third-party independence statement, and operational limitation.
-- Updated application, assembly, file and installer versions to 1.40.
-- No changes to Program.cs, configuration defaults, startup task scripts, or installer/uninstaller behaviour beyond the additional page.
-
-Status: source prepared; NSIS compilation and Windows 11 testing pending.
