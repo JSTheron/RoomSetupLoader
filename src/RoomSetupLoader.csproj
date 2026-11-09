@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <AssemblyName>RoomSetupLoader</AssemblyName>
+    <RootNamespace>RoomSetupLoader</RootNamespace>
+    <Product>Room Setup Loader</Product>
+    <Title>Room Setup Loader</Title>
+    <ApplicationIcon>..\assets\RoomSetupLoader.ico</ApplicationIcon>
+    <Version>1.41</Version>
+    <AssemblyVersion>1.41.0.0</AssemblyVersion>
+    <FileVersion>1.41.0.0</FileVersion>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseSystemDrawing>true</UseSystemDrawing>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <SelfContained>true</SelfContained>
+    <PublishSingleFile>true</PublishSingleFile>
+    <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+    <EnableCompressionInSingleFile>true</EnableCompressionInSingleFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="..\assets\Angular RSL Upload Icon.png" Link="Angular RSL Upload Icon.png" CopyToPublishDirectory="Never" />
+    <PackageReference Include="System.Drawing.Common" Version="8.0.11" />
+    <None Update="config.json" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>

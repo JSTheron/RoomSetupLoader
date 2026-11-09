@@ -1,0 +1,13 @@
+{
+  "AtemIpAddress": "192.168.10.240",
+  "ImageFolder": "D:\\Assets\\ATEM",
+  "ImagePrefix": "Setup_",
+  "Width": 1920,
+  "Height": 1080,
+  "AtemConnectionAttempts": 3,
+  "AtemConnectionRetryDelaySeconds": 5,
+  "LogRetentionDays": 365,
+  "MaxLogFolderSizeMB": 1024,
+  "LogCleanupIntervalHours": 24,
+  "MaxIndividualLogSizeMB": 10
+}

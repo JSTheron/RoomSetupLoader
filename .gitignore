@@ -1,0 +1,21 @@
+# .NET and Visual Studio outputs
+**/bin/
+**/obj/
+.vs/
+.vscode/
+*.user
+*.suo
+
+# Generated build outputs
+/publish/
+RoomSetupLoader-Setup-v*.exe
+*.pdb
+
+# Local logs and temporary files
+Logs/
+*.log
+*.tmp
+
+# Local or user-specific configuration (keep src/config.json template tracked)
+config.local.json
+*.local.json
