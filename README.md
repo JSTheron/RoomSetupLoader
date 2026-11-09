@@ -14,7 +14,7 @@ As such, source files are made available on GitHub for full transparency and use
 To use the software, you can download a pre-compiled version from the releases section:
 [Download Latest Release](/../../releases/latest)
 
-Alternatively, you can download the source files and compile it yourself by following the [Build Instructions](#installation-guide).
+Alternatively, you can download the source files and compile it yourself by following the [Build Instructions]([#build-windows-11)
 
 - `ATEM` Video Switchers 10.4.1 or 11.0.0 must be installed on the Automate VX.
 - `CRESTRON` Automate VX 6.7 must be installed on the Automate VX.
