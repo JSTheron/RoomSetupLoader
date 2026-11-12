@@ -1,5 +1,7 @@
 # Room Setup Loader (RSL)
 
+<img src="/assets/Angular RSL Upload Icon.png" alt="Logo" width="150" height="150">
+
 Room Setup Loader is a Windows utility designed to load room setup still images from a Windows-based system, including Crestron Automate VX installations, into the media pool of a compatible Blackmagic Design ATEM video switcher.
 The images can be used by an AV control system as visual positioning guides over a live camera feed, helping room users arrange tables and other furniture in predefined positions. The utility runs at Windows user logon to replenish still images that may be lost when the switcher restarts or loses power.
 
